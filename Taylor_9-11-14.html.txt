@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>
+		My first Webpage
+	</title>
+</head>
+<body>
+	Hello!
+	<b><i><u>How are you?</u></i></b>
+	<strong><em>I am good.</em></strong>
+	<P>Define yourself in 5 words.</P>
+	<ol>
+		<li>Honest</li>
+		<li>Hard-working</li>
+	</ol>
+	<a>Bookmark</a>
+	<a href="http://google.com">MyLink</a>
+</body>
+</html>

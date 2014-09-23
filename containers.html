@@ -1,0 +1,184 @@
+<html>
+<head>
+	<title>Containers</title>
+	<style type="text/css">
+	/* Header Selection */
+		#header {
+			background-color:black;
+			width:100%;
+			padding:10px;
+			}
+		#quickLinks { 
+			background-color:orange;
+			width:100%;
+			}
+		#quickLinks span{
+			color:white;
+			text-weight:bold;
+			}
+		#quickLinks ul{
+			list-style-type:none;
+			}
+		#quickLinks a{
+			text-decoration:none;
+			}
+		#logo { 
+			background-color:yellow;
+			width:100%;
+			}
+	/*Style only the img that is in the daic layer "logo" */
+		#logo img{
+			width:100%
+			}
+		#navigation { 
+			background-color:blue;
+			width:100%;
+			height:100px;
+			}
+		#navigation a{ 
+			background-color:blue;
+			width: 11%;
+			color: white;
+			display:inline-block;
+			padding:5px 5px 5px 5px 5px;
+			border-right:1px solid white;
+			text-decoration:none;
+			text-weight:bold;
+			}
+		#navigation a:hover{ 
+			background-color:orange;
+			color:black;
+			}
+		#login { 
+			background-color:white;
+			width:100%;
+			} 
+	/* Main */
+		#main { 
+			background-color:brown;
+			width:100%;
+			padding:10px;
+			overflow:hidden;
+			} 
+		#announcements { 
+			background-color:yellow;
+			width:70%;
+			float:left;
+			height:2500px;
+			#dAnnouncements{
+			
+			}
+			} 	
+			
+		
+	
+		#socialLinks { 
+			background-color:pink;
+			width:30%;
+			height:250px;
+			float:right;
+			} 
+		#events { 
+			background-color:red;
+			width:30%;
+			height:250px;
+			float:right;
+			} 
+		#links { 
+			background-color:blue;
+			width:30%;
+			height:250px;
+			float:right;		
+			} 
+		#publications { 
+			background-color:orange;
+			width:30%;
+			height:250px;
+			float:right;
+			} 
+		#weather { 
+			background-color:green;
+			width:30%;
+			height:250px;
+			float:right;
+			} 
+		#footer { 
+			background-color:grey;
+			width:100%;
+			height:100px;
+			} 
+	
+	</style>
+</head>
+
+<body>
+
+<!-- Header: Quick Links, -->
+<div id="header">
+	<div id="quickLinks">
+		<ul>
+		<a href=""><span> ></span>School Home</a>
+		<a href=""><span> ></span> Login</a>
+		<a href=""><span> ></span> Help</a>
+		<a href=""><span> ></span> Search</a>
+		</ul>
+	</div>
+	<div id ="logo">
+		<img src="HS495_CONTEMPORARY_02.jpg">
+	</div>
+	<div id ="navigation">
+		<a href="">Directory</a>
+		<a href="">About BHS</a>
+		<a href="">Calendar</a>
+		<a href="">Academics</a>
+		<a href="">Students</a>
+		<a href="">Parents</a>
+		<a href="">Library</a>
+		<a href="">Guidance</a>
+	</div>
+	<div id ="login">
+	<form>
+		Login&nbsp;&nbsp;&nbsp;&nbsp;
+		Username <input type="text" id="username">
+		&nbsp;&nbsp;&nbsp;&nbsp;Password <input type="password" id="password">
+		&nbsp;&nbsp;<input type="button" value="Login">
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Forgot Password</a>
+		&nbsp;&nbsp;&nbsp;&nbsp;Need Help?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">English</a> | <a href="">Espanol</a>
+	</form>
+	</div>
+</div>
+<!-- Main: -->
+<div id="main">
+	<div id="announcements"></div>
+		<h1>> Daily Announcements</h1>
+		<div class="dAnnouncements">
+		<p><b>eChalk Update</b> - All student accounts have been created and all classes<br/>
+		have been uploaded. Students: your user name is your firstname.lastname<br/>
+		and your password is your 9 digit OSIS#. If you have any questions, please<br/>
+		email <u>smiller@baysidehighschool.org</u><br/><br/>
+		<b>Pupil Path Update</b> - Incoming students will receive a letter containing<br/> 
+		their pupil path user names and passwords during their guidance counselor<br/> 
+		appointment. Parent information (user names and passwords) are also on this<br/>
+		letter.
+		</p>
+		</div>
+	<div id ="socialLinks"></div>
+	<div id ="events"></div>
+	<div id ="links"></div>
+	<div id ="publications"></div>
+	<div id="weather"></div>
+</div>
+
+<!-- Footer: -->
+<div id="footer"> 
+	<div id ="address"></div>
+	<div id ="socialLinks"></div>
+	<div id ="companyLinks"></div>
+	<div id="companyLogo"></div>
+	<div id="langauge"></div>
+</div>
+
+	
+
+</body>
+</html>
